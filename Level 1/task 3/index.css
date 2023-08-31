@@ -1,0 +1,178 @@
+/* @import url('https://fonts.cdnfonts.com/css/digital-numbers'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.btns td button{
+
+    width:80px;
+    margin: 5px;
+    border-radius: 20px ;
+    height: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    /* background-color: black; */
+    background: linear-gradient(180deg,#2f2f2f,#3f3f3f);
+    /* box-shadow: inset -4px -4px 3px rgba(198, 193, 193, 0.833) ; */
+    box-shadow: inset -8px 0px 8px rgba(0,0,0,0.15),inset 0 -8px -8px rgba(0,0,0,0.25),0 0 0 2px rgba(0,0,0,0.75),10px 20px 25px rgba(0,0,0,0.4);
+    border: solid rgb(80, 78, 78) 1px ;
+    font-weight: 400;
+}
+.btns td button{
+    background: linear-gradient(90deg,#2d2d2d,#4d4d4d);
+    box-shadow: -5px -5px 15px rgba(0,0,0,0.1),10px 5px 10px rgba(0,0,0,0.15);
+    border-left:1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0009;
+
+}
+.btns td button:hover{
+    cursor: pointer;
+    background: rgba(136, 134, 134, 0.507);
+}
+/* tr td{
+    margin: 0px;
+    border: 0px solid ;
+
+
+} */
+/* tr:nth-child(even){
+    background-color: #292929;}
+tr:nth-child(odd){
+    background-color: #1e1d1d;} */
+#inputbox{
+    width:97%;
+    height: 60px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(43, 42, 42);
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(83, 224, 109); */
+    background-color: #d6e580;
+    border: 2px white solid;
+    box-shadow: 3px 3px 4px 2px rgb(53, 53, 53);
+    text-align: right;
+    display: inline-flex;
+    align-items: center;
+
+}
+.main-calc{
+    /* position: fixed; */
+    border: 2px solid rgba(39, 38, 38, 0.779);
+    padding: 60px 30px 60px 30px;
+    margin: auto;
+    border-radius: 10px;
+    /* background-color: rgb(0, 0, 0); */
+    background-color: #333;
+    /* box-shadow: 30px 30px 20px rgb(65, 65, 65); */
+    box-shadow: 25px 25px 75px rgba(21, 20, 20, 0.829),10px 10px 75px  rgba(0,0,0,0.25),inset -5px -5px 15px rgba(0,0,0,0.5),inset 5px 5px 15px rgba(0,0,0,0.5);
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+}
+.calc{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.calc h1{
+    /* position: fixed;
+    top:2%; */
+    margin-top: 70px;
+    text-decoration: bold;
+    letter-spacing: 4px;
+    color: white;
+    background-color: rgb(198, 29, 57);
+    padding: 5px 30px;
+    /* font-weight: 1000px; */
+    font-size: 250%;
+    font-family: 'Bad Script', ;
+    font-family: 'Gruppo', sans-serif;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+section{
+    width: 100%;
+    height: auto;
+    /* background-image: url(assests/istockphoto-628370660-1024x1024.jpg); */
+    /* background-image:url(assests/1000_F_96362108_OBNRDp6H4jC1bsZJh6rkWsCLf1rbq8g5.jpg) ;
+    background-size: cover;
+    background-position: center; */
+}
+main{
+    width: 100%;
+    height: auto;
+    /* margin: auto; */
+    background-image:url(assets/1000_F_96362108_OBNRDp6H4jC1bsZJh6rkWsCLf1rbq8g5.jpg) ;
+    /* background-image:url(assests/2c99ea542d543ebcb5267b0bca1f9ab9.jpg) ; */
+
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+#c{
+    /* background: rgb(236, 101, 18); */
+    /* background:linear-gradient(90deg,#EC6512,#f2ededeb) ; */
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    border-left:1px solid #fff4;
+    border-bottom: 1px solid #fff4;
+    border-top: 1px solid #fff4;
+
+}
+#c:hover{
+    background: rgb(218, 92, 13);
+}
+#del{
+    /* background: rgb(223, 52, 52); */
+    background-color: #ff7878;
+    background-image: linear-gradient(315deg, #ff7878 0%, #ff0000 74%);
+
+}
+.btns .calcbtn{
+    /* background: rgb(61, 173, 221); */
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.btns .calcbtn:hover{
+    /* background: rgb(61, 173, 221); */
+    background:  rgb(14, 98, 234);
+}
+#del:hover{
+    background: rgba(255, 0, 0, 0.705);
+}
+@media (max-width:480px) {
+    main-calc{
+        padding: 20px 10px 20px 10px;
+    }
+    .btns td button{
+        width:50px;
+        border-radius: 10px ;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+@media (max-width:300px)
+{
+    main-calc{
+        padding: 10px 5px 10px 5px;
+    }
+    .btns td button{
+        width:40px;
+        border-radius: 10px ;
+        height: 30px;
+        font-size: 10px;
+    }
+    .calc h1{
+        font-size: 30px;
+    }
+}
